@@ -20,7 +20,7 @@ function AllProducts() {
   return (
     <>
       <Navbar />
-      <div className="max-w-4xl mx-auto px-4 py-20 md:px-0">
+      <div className="max-w-4xl mx-auto px-4 py-20 md:px-2">
         {loading && <Loader />}
         {!loading && products.length > 0 && <Products products={products} />}
       </div>

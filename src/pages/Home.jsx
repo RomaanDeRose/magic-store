@@ -1,6 +1,9 @@
+import Navbar from "../components/Navbar";
+
 function Home() {
   return (
     <div className="w-full">
+      <Navbar />
       <h1 className="text-blue-500 text-5xl font-bold text-center text-balance my-4">
         Welcome to the Magic Store
       </h1>
