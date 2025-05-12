@@ -4,8 +4,8 @@ import logo from '../assets/logo.png';
 
 function Navbar() {
     return (
-      <header className="fixed top-0 left-0 z-10 w-full py-2.5 bg-white border-b-1 shadow-md shadow-gray-200/20 border-gray-100/50">
-        <nav className="max-w-4xl mx-auto flex justify-between items-center px-4 md:px-2">
+      <header className="fixed top-0 left-0 z-10 w-full bg-white border-b-1 shadow-md shadow-gray-200/20 border-gray-100/50">
+        <nav className="max-w-4xl mx-auto flex justify-between items-center py-3 px-4 md:px-2">
           <NavLink to="/">
             <img src={logo} alt="Logo Magic Store" className="size-9" />
           </NavLink>
